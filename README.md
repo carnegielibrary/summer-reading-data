@@ -20,6 +20,10 @@ The best way to get a sense of where the data comes from is to sign up and log a
 
 [https://carnegielibrary.org/summer](https://carnegielibrary.org/summer)
 
+Books logged totals may not be the same across datasets for a variety of reasons, including missing data in certain fields and/or reports being run at different times.
+
+**In case you are curious, the current official total as of 7/13/2016 is 53,245 items read. We are well on our way to 90,000!**
+
 ## What data is included here?
 
 ### log_timestamps.csv
@@ -37,8 +41,15 @@ A list of all the books titles that have been logged.
 
 - book_title - The book title. Note that capitalization and spelling may be inconsistent. Additionally, note that many readers have chosen not to self-report their book title. A missing title appears as "No Title Logged."
 - book_author - The book author. A missing author appears as NULL.
-- log_value - As before, the number of times the book was read.
-- library - As before, the library the reader is registered with for summer reading.
+- log_value - The number of times the book was read.
+- library - The library the reader is registered with for summer reading.
+
+### total-by-library.csv
+
+The total number of items logged aggregated by library.
+
+- library - The library the reader is registered with for summer reading.
+- books - The number of books logged.
 
 ## What other resources are available?
 

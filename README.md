@@ -31,6 +31,15 @@ Timestamps showing when books were logged. Book titles are not included in this 
 - log_value - The number of times the book was read. For example, a child might read a picture book twice before bedtime, or a teacher might read to a group of twenty children at once during a storytime and choose to log that reading all at once.
 - library - The library the reader is registered with for summer reading. While many people use multiple libraries, this would be considered their "home base."
 
+### log-books.csv
+
+A list of all the books titles that have been logged.
+
+- book_title - The book title. Note that capitalization and spelling may be inconsistent. Additionally, note that many readers have chosen not to self-report their book title. A missing title appears as "No Title Logged."
+- book_author - The book author. A missing author appears as NULL.
+- log_value - As before, the number of times the book was read.
+- library - As before, the library the reader is registered with for summer reading.
+
 ## What other resources are available?
 
 Besides the experimental summer reading data in this repository, there are a number of datasets and tools that might be useful during this hack night.
@@ -50,7 +59,7 @@ This data is experimental and this is a hack night - so have fun and be creative
 
 To get you started, here are some possible questions to explore - perhaps some of them will lead to more questions:
 
-- What times of day or days of the week does book logging occur? Does this vary across library locations?
+- What times of day or days of the week does book logging occur? Does this vary across library locations? Are there early birds or night owls?
 - Based on the daily log counts, can we predict when we will hit 90,000 books?
 - What book titles are the most popular at different libraries? Are there surprising titles or genres that the library should be featuring based on this data?
 - Using the list of books read alongside other tools or APIs from the CODEX list, are there #MyNextRead recommendations that would be appropriate for Pittsburgh Summer Readers as a group? (Of course, our librarians can make personalized recommendations for any reader!)

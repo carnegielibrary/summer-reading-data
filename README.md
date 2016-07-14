@@ -20,6 +20,17 @@ The best way to get a sense of where the data comes from is to sign up and log a
 
 [https://carnegielibrary.org/summer](https://carnegielibrary.org/summer)
 
+## What data is included here?
+
+### log_timestamps.csv
+
+Timestamps showing when books were logged. Book titles are not included in this dataset, since book titles and timestamps combined could theoretically create a "reader fingerprint" as some readers log their books all at once.
+
+- log_timestamp - The time the book was logged in Eastern Time.
+- date_read - The date the book was read, if the reader indicated a different date than the timestamp.
+- log_value - The number of times the book was read. For example, a child might read a picture book twice before bedtime, or a teacher might read to a group of twenty children at once during a storytime and choose to log that reading all at once.
+- library - The library the reader is registered with for summer reading. While many people use multiple libraries, this would be considered their "home base."
+
 ## What other resources are available?
 
 Besides the experimental summer reading data in this repository, there are a number of datasets and tools that might be useful during this hack night.

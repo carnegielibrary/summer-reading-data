@@ -51,6 +51,13 @@ The total number of items logged aggregated by library.
 - library - The library the reader is registered with for summer reading.
 - books - The number of books logged.
 
+### total-by-zip.csv
+
+The total number of items logged aggregated by ZIP code.
+
+- zip - The ZIP code the reader lives in. ZIP codes with fewer than 50 books logged were omitted from the list (as well as any invalid ZIP codes.)
+- books - The number of books logged.
+
 ## What other resources are available?
 
 Besides the experimental summer reading data in this repository, there are a number of datasets and tools that might be useful during this hack night.

@@ -1,6 +1,7 @@
 #summer-reading-data
 
-**THE SUMMER READING DATA SHARED HERE IS EXPERIMENTAL.**
+###**THE SUMMER READING DATA SHARED HERE IS EXPERIMENTAL, INCOMPLETE, AND SUBJECT TO SUDDEN CHANGE.**
+###**Please visit [our organization page on WPRDC](https://data.wprdc.org/organization/carnegie-library-of-pittsburgh) to access Carnegie Library of Pittsburgh open data or submit an open data request.**
 
 This data was compiled for an OpenPGH civic hack night. [http://www.meetup.com/Open-Pittsburgh-our-Regions-Code-for-America-Brigade/events/232205629/](http://www.meetup.com/Open-Pittsburgh-our-Regions-Code-for-America-Brigade/events/232205629/)
 
